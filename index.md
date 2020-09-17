@@ -64,36 +64,33 @@ perintah dibawah ini menggunkan item padding
             padding: EdgeInsets.all(8.0),
             child: Text("Android Jelly Bean"),
           ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Kitkat"),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Lollipop"),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Marshmallow"),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Nougat"),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Oreo"),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text("Android Pie"),
-          ),
         ],
       ),
       
 ```
+Hasilnya:
 ![image](Hasil1.PNG)
+>## ListView dengan textile
+Gunakan perintah yang paling atas pada body masukkan perintah dibawah
+```dart
+        body: new ListView(children: [
+          ListTile(
+            leading: Icon(Icons.location_city, size: 60.00, color: Colors.blue),
+            title: Text("Pilihan 1"),
+            subtitle: Text("Isi 1"),
+          ),
+          ListTile(
+            leading: Icon(Icons.location_city, size: 60.00, color: Colors.blue),
+            title: Text("Pilihan 2"),
+            subtitle: Text("Isi 2"),
+          ),
+        ]),
+```
+![image](Hasil2.PNG)
 
+>##Lisview dengan Builder
+dalam hal ini proses pembuatan listview menggunkan sumber data yang berasal dari array
+berikut perintah membuat array:
 
 ### Markdown
 
