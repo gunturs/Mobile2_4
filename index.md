@@ -23,10 +23,9 @@ class MyApp extends StatelessWidget {
 }
 
 ```
->## Contoh Mebuat ListView Sederhana
+> ## Contoh Mebuat ListView Sederhana
+
 perintah dibawah ini menggunkan item padding
-
-
 ```dart
         body: ListView(
         children: <Widget>[
