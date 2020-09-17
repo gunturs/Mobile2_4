@@ -3,8 +3,8 @@
 Listview merupakan wiget yang digunakan untuk menampilkn data secara dynamis, serta dapat juga menmpilkan data dari array dan sumber lain seperti database dengan menggunakan perintah yang tersimpan daam json.
 dalam artikel ini kita akan coba step by step mempraktekan lisview, Langkah pertama siapkan terlebih dahulu class yang dijadikan tempat meletakkan ListView
 >## Program Dasar
+
 ```dart
-import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
