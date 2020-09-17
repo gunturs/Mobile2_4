@@ -4,6 +4,23 @@ Listview merupakan wiget yang digunakan untuk menampilkn data secara dynamis, se
 dalam artikel ini kita akan coba step by step mempraktekan lisview, Langkah pertama siapkan terlebih dahulu class yang dijadikan tempat meletakkan ListView
 >##Program Dasar
 ```Dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Program ListView'),
+        ),
+        //Program Lisview
+      ),
+    );
+  }
+}
+
 
 ```
 
