@@ -157,3 +157,18 @@ class _Tampil extends State<Tampil> {
 
 ```
 
+
+Tambahkan perintah dibawah ini utuk menampilkan tombol tambah data
+
+
+```dart
+
+floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        child: Icon(Icons.add),
+        backgroundColor: Colors.green,
+      ),
+
+```
