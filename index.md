@@ -92,7 +92,7 @@ perintah dibawah ini menggunkan item padding
       ),
       
 ```
-
+[image](Hasil1.PNG)
 
 
 ### Markdown
