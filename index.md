@@ -71,7 +71,10 @@ perintah dibawah ini menggunkan item padding
 ```
 Hasilnya:
 ![image](Hasil1.PNG)
->## ListView dengan textile
+
+
+> ## ListView dengan ListTile
+
 Gunakan perintah yang paling atas pada body masukkan perintah dibawah
 ```dart
         body: new ListView(children: [
